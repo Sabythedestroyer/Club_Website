@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="{{url_for('static' , filename='css/style.css' )}}">
     <script src="{{url_for('static' , filename='js/jquery.js')}}"></script>
     <script src="{{url_for('static' , filename= 'js/jquery-migrate-1.2.1.js')}}"></script>
-    <script src= "{{url_for('static' , filename='js/device.min.js')}}"></script>
+    <script src="static/js/device.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='device.min.js') }}"></script>
 </head>
 
 <body>
@@ -153,9 +154,8 @@
     <footer>
         <div class="container">
             <ul class="socials">
-                <li><a href="#" class="fa fa-facebook"></a></li>
-                <li><a href="#" class="fa fa-tumblr"></a></li>
-                <li><a href="#" class="fa fa-google-plus"></a></li>
+                <li><a href="https://www.facebook.com/TCC-Coding-Club-108158328464579" class="fa fa-facebook"></a></li>
+                <li><a href="https://www.instagram.com/tcccodingclub/" class="fa fa-instagram"></a></li>
             </ul>
             <div class="copyright">© <span id="copyright-year"></span> |
                 <a href="#">Privacy Policy</a>
