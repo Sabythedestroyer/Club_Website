@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/index')
 def main():
-    return render_template('Index.html')
+    return render_template('index.html')
 
 # This is the about route for the about directory page
 
