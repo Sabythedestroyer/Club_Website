@@ -106,7 +106,7 @@
   z-index: 2;
 }
 .camera_loader {
-  background: #ffffff url(../images/camera-loader.gif) no-repeat center;
+  background: #ffffff url(static/images/camera-loader.gif) no-repeat center;
   border: 1px solid #ffffff;
   border-radius: 18px;
   height: 36px;
