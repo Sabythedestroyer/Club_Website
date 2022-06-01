@@ -10,7 +10,6 @@ def main():
     return render_template('index.html')
 
 # This is the about route for the about directory page
-
 @app.route('/about')
 def about_club():
     return render_template('about.html')
