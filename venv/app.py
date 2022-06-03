@@ -14,5 +14,5 @@ def main():
 def about_club():
     return render_template('about.html')
 
-if __name__ == ' __main__':
-    app.run()
+if __name__ == "__main__":
+    app.run(debug=True)
