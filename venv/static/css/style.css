@@ -57,7 +57,7 @@ p a:hover {
   text-decoration: underline;
 }
 figcaption {
-  font-family: 'Yesteryear', cursive;
+  font-family: 'Yesteryear',cursive;
   font-size: 30px;
   line-height: 40px;
   font-weight: 400;
@@ -563,9 +563,9 @@ header .nav {
   padding: 0 0 6px 4px;
   display: inline-block;
   overflow: hidden;
-  font-family: 'Yesteryear', cursive;
-  font-size: 60px;
-  line-height: 64px;
+  font-family: 'fontawesome';
+  font-size: 45px;
+  line-height: 75px;
   color: #ffffff;
 }
 /*=======================================================
