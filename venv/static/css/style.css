@@ -6,7 +6,7 @@
                       Main Styles
 =========================================================*/
 body {
-  background: #a95858;
+  background: url('../images/Code_background.jpg');
   color: #333;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -388,7 +388,7 @@ a[href^="tel:"] {
   display: none;
   margin: 0 auto;
   width: 420px;
-  background: #ffffff url('static/images/select.png') no-repeat right center;
+  background: #ffffff url('../images/select.png') no-repeat right center;
   overflow: hidden;
 }
 .select-menu .select {

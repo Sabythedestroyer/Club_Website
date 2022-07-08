@@ -4,11 +4,13 @@
     <title>Home</title>
     <meta charset="utf-8">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="{{url_for('static', filename='js/script.js')}}"></script>
     <link rel="stylesheet" href="{{url_for('static' , filename='css/grid.css')}}">
     <link rel="stylesheet" href="{{url_for('static' , filename='css/style.css' )}}">
     <script src="{{url_for('static' , filename='js/jquery.js')}}"></script>
     <script src="{{url_for('static' , filename= 'js/jquery-migrate-1.2.1.js')}}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/device.min.js') }}"></script>
+
 </head>
 
 <body>
@@ -242,10 +244,8 @@
                 <a href="#">Privacy Policy</a>
             </div>
         </div>
-        <div class="tm"><a href="#"><img src="#" alt=""></a></div>
     </footer>
 </div>
 
-<script src="js/script.js"></script>
 </body>
 </html>
