@@ -4,7 +4,7 @@ A website for the classes inside of the TCC coding club.
 This website is meant to showcase the ablilties and profesional talet of the TCC coding club.
 
 
-# How to install all python components 
+# How to install all python components #
 
 In order to have all commponents and modules installed mkae use of the following in python with the requierments.txt file when being used in a local enviorment.
 
@@ -24,6 +24,13 @@ C:\Club_Website\venv\scripts> .\activate.bat
 ```
 $ source Club_Website/venv/Scripts/activate
 ```
+=======
+```
+ pip install -r requirements.txt
+  ```
+
+
+>>>>>>> ea59eb9c27446bd651935dabd4a346d9cc981316
 
 
 # The file structure of the aplication 
