@@ -24,14 +24,9 @@ C:\Club_Website\venv\scripts> .\activate.bat
 ```
 $ source Club_Website/venv/Scripts/activate
 ```
-=======
 ```
  pip install -r requirements.txt
   ```
-
-
->>>>>>> ea59eb9c27446bd651935dabd4a346d9cc981316
-
 
 # The file structure of the aplication 
 
