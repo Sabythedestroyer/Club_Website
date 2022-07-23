@@ -1,75 +1,6 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Home</title>
-    <meta charset="utf-8">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <script src="{{url_for('static', filename='js/script.js')}}"></script>
-    <link rel="stylesheet" href="{{url_for('static' , filename='css/grid.css')}}">
-    <link rel="stylesheet" href="{{url_for('static' , filename='css/style.css' )}}">
-    <script src="{{url_for('static' , filename='js/jquery.js')}}"></script>
-    <script src="{{url_for('static' , filename= 'js/jquery-migrate-1.2.1.js')}}"></script>
-    <script type="text/javascript" src="{{ url_for('static', filename='js/device.min.js') }}"></script>
+﻿{%extends 'base.html'%}
 
-</head>
-
-<body>
-<div class="page">
-    <!--========================================================
-                              HEADER
-    =========================================================-->
-    <header>
-        <div id="stuck_container" class="stuck_container">
-            <div class="container">
-                <div class="brand">
-                    <h1 class="brand_name">
-                        <a href="./">TCC CODE CLUB</a>
-                    </h1>
-                </div>
-                <nav class="nav">
-                    <ul class="sf-menu">
-                        <li class="active">
-                            <a href="./">Home</a>
-                        </li>
-                        <li>
-                            <a href="about">About</a>
-                            <ul>
-                                <li>
-                                    <a href="#">Quisque nulla</a>
-                                </li>
-                                <li>
-                                    <a href="#">Vestibulum libero</a>
-                                    <ul>
-                                        <li>
-                                            <a href="#">Lorem</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Dolor</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Sit amet</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Vivamus eget nibh</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="index-2.html">What We Do</a>
-                        </li>
-                        <li>
-                            <a href="index-3.html">Menu</a>
-                        </li>
-                        <li>
-                            <a href="index-4.html">Contacts</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
+{%block content%}
     <!--========================================================
                               CONTENT
     =========================================================-->
@@ -230,22 +161,4 @@
             </div>
         </section>
     </main>
-
-    <!--========================================================
-                              FOOTER
-    =========================================================-->
-    <footer>
-        <div class="container">
-            <ul class="socials">
-                <li><a href="https://www.facebook.com/TCC-Coding-Club-108158328464579" class="fa fa-facebook"></a></li>
-                <li><a href="https://www.instagram.com/tcccodingclub/" class="fa fa-instagram"></a></li>
-            </ul>
-            <div class="copyright">© <span id="copyright-year"></span> |
-                <a href="#">Privacy Policy</a>
-            </div>
-        </div>
-    </footer>
-</div>
-
-</body>
-</html>
+{%endblock%}

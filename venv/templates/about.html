@@ -1,52 +1,6 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>About</title>
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="{{url_for('static' , filename='css/grid.css')}}">
-  <link rel="stylesheet" href="{{url_for('static' , filename='css/style.css' )}}">
-  <script src="{{url_for('static', filename='js/script.js')}}"></script>
-  <script src="{{url_for('static' , filename='js/jquery.js')}}"></script>
-  <script src="{{url_for('static' , filename= 'js/jquery-migrate-1.2.1.js')}}"></script>
-  <script type="text/javascript" src="{{ url_for('static', filename='js/device.min.js') }}"></script>
-</head>
+﻿{%extends 'base.html' %}
 
-<body>
-<div class="page">
-    <!--========================================================
-                              HEADER
-    =========================================================-->
-    <header>
-        <div id="stuck_container" class="stuck_container">
-            <div class="container">
-                <div class="brand">
-                    <h1 class="brand_name">
-                        <a href="./">TCC CODE CLUB</a>
-                    </h1>
-                </div>
-                <nav class="nav">
-                    <ul class="sf-menu">
-                        <li>
-                            <a href="./">Home</a>
-                        </li>
-                        <li class="active">
-                            <a href="about">About</a>
-                        </li>
-                        <li>
-                            <a href="index-2.html">What We Do</a>
-                        </li>
-                        <li>
-                            <a href="index-3.html">Menu</a>
-                        </li>
-                        <li>
-                            <a href="index-4.html">Contacts</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-
-    </header>
+{%block content%}
     <!--========================================================
                               CONTENT
     =========================================================-->
@@ -113,21 +67,4 @@
                 </div>
             </div>
     </main>
-    <!--========================================================
-                              FOOTER
-    =========================================================-->
-    <footer>
-        <div class="container">
-            <ul class="socials">
-                <li><a href="https://www.facebook.com/TCC-Coding-Club-108158328464579" class="fa fa-facebook"></a></li>
-                <li><a href="https://www.instagram.com/tcccodingclub/" class="fa fa-instagram"></a></li>
-            </ul>
-            <div class="copyright">© <span id="copyright-year"></span> 
-                <a href="#">Privacy Policy</a>
-            </div>
-        </div>
-        <div class="tm"><a href="#"><img src="#" alt=""></a></div>
-    </footer>
-</div>
-</body>
-</html>
+{%endblock%}
