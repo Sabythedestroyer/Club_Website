@@ -6,7 +6,6 @@
                       Main Styles
 =========================================================*/
 body {
-  background: url('../images/Code_background.jpg');
   color: #333;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -867,6 +866,7 @@ main {
                      FOOTER  Styles
 =========================================================*/
 footer {
+  background-image: url('../images/Code_background.jpg');
   padding: 78px 0 0 0;
   text-align: center;
 }
