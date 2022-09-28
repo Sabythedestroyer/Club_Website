@@ -1,7 +1,7 @@
 # Club_Website
 A website for the classes inside of the TCC coding club.
 
-This website is meant to showcase the ablilties and profesional talet of the TCC coding club.
+This website is meant to showcase the ablilties and profesional talent of the TCC coding club.
 
 
 # How to install all python components #
